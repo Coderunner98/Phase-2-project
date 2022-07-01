@@ -44,3 +44,15 @@ We will remove the two predictors which have lowered our R^2 score. Our Skew and
 
 ## Model 3
 After the log transformation on the prices we can see an improvement on the distribution which is more normal. The improved Skewness is now from highly positive to slightly negative. The Improved skew is now between -0.5 and 0.5 which now means that the data is now very symmetrical. Our R^2 value has also increased to about 63.8% of the variance which is explained by the model.
+![download](https://user-images.githubusercontent.com/91674285/176925837-5b36899f-e9ac-43e7-b1ae-9c89ad88b1ff.png)
+
+## Homescedasticity
+We will run a scatter plot to show homescedasticity, this will help us know that the error is constant along the values of our dependent variable. This will also provide us with a solid explainable place to start working on our analysis and forecasting of housing prices at King County over the next years
+## Training
+With training and testing being similar, we can expect our model to perform similarly on different data.
+the accuracy of the model is at 61.2%
+![image](https://user-images.githubusercontent.com/91674285/176941215-f06fd836-4d5f-461c-bead-0852c5429417.png)
+
+## Conclusion
+With our final model our regression results indicate that the R^2 value is at 0.616 meaning it is 61.16% of the variance that is explained by our model. Our results also tells us that the skewness is at -0.007 which is between - 0.5 to 0.5 this means that the data is symmetrical and it satisfies the normality assumption. Their is also an assumption that for linear regression that the data must be homoscedastic meaning that the different samples we have should have the same variance. To check this we plotted a scatterplot and viewed that the data indeed was homoscedastic and did not have any cone like shape which would indicate that our data was heteroscedastic. We also observed that the living space had the strongest relationship with how the house priced at. Its t-value came in at 47.2 which indicates how statistically significant the coefficient is. It also makes sense that the living space will have the strongest determining factor to the price of a property because of the time spent inside the house and having a large living area generally means that more rooms making it more appealing to potential buyers. The renovated homes have a t-value of 6.8 which is not as high. this data tells us that for non-renovated homes are heavily outweighed than the ones of renovated homes. This will give our stakeholder a grasp of the type of houses available at King County and the specification of what makes the value of a house appeciate in value or sell for.
+
